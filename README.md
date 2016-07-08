@@ -24,11 +24,18 @@ php must be able to use the ```exec()``` function. So check your ```php.ini``` `
 ## Usage
 ### Backup all apps
 * ```cd path/to/appBackup```
-* ```php run.php```
+* ```php appBackup.php```
 
 ### Backup a selection of apps
 * ```cd path/to/appBackup```
-* ```php run.php --- -apps "app1,app2,...,appN"```
+* ```php appBackup.php --- -apps "app1,app2,...,appN"```
 
 ## Notes
 Logs are stored as a json array per line.
+
+## Author
+<pre>
+David Reagan
+david@reagannetworks.com
+davidreagan.net
+</pre>
